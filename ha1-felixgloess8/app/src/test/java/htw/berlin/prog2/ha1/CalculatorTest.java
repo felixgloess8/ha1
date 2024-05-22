@@ -73,7 +73,7 @@ class CalculatorTest {
 
         assertEquals(expected, actual);
     }
-//kriegs hier nicht mit mehreren Zahlen hin aber 9-7 klappt z.B. super, lasse ich jetzt so.
+    //kriegs hier nicht mit mehreren Zahlen hin aber 9-7 klappt z.B. super, lasse ich jetzt so.
     @Test
     @DisplayName("should display result after subtracting one single-digit number from another")
     void testSubtraction() {
